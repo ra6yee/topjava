@@ -23,7 +23,7 @@ public class MealService {
     }
 
     public Meal get(int id, int userId) {
-        return checkNotFoundWithId(repository.get(id, userId), id);
+        return (Meal) checkNotFoundWithId(repository.get(id, userId), id);
     }
 
     public void delete(int id, int userId) {
