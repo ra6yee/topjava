@@ -17,8 +17,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import static UserTestData.ADMIN_ID;
-import static UserTestData.USER_ID;
+
 
 @Repository
 public class InMemoryMealRepository implements MealRepository {
