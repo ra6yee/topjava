@@ -18,7 +18,7 @@ public class MealService {
 
     private final MealRepository repository;
 
-    public MealService( MealRepository repository) {
+    public MealService(MealRepository repository) {
         this.repository = repository;
     }
 
